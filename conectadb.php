@@ -1,11 +1,11 @@
 <?php
-#Localiza pc com banco
-Servidor ="localhost";
-#Nome do banco
-$banco ="projetot27";
-#Usuario de acesso
+#LOCALIZA PC COM BANCO(NOME DO COMPUTADOR)
+$servidor = "localhost";
+#NOME DO BANCO
+$banco = "projetot27";
+#USUARIO DE ACESSO
 $usuario = "admin";
-#Senha do usuario;
-$senha = "123"
-#Link de acesso
+#SENHA DO USUARIO
+$senha = "123";
+#LINK DE ACESSO
 $link = mysqli_connect($servidor, $usuario, $senha, $banco);
